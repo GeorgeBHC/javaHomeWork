@@ -64,3 +64,34 @@ if(!conditie3) {
 } else {
     console.log('Conditia e adevarata');
 }
+
+//Bucla do-while
+
+let numar = 1;
+do {
+    console.log(numar);
+    numar++;
+} while (numar <= 10);
+
+//Bucla for 
+
+for (let i = 0; i <= 20; i++) {
+   if (i % 2 === 0) {
+    console.log(i);
+   }
+}
+
+let num3 = parseInt(prompt("Introdu primul numar:"));
+let num4 = parseInt(prompt("Introdu al doilea numar:"));
+
+
+for (let i= num3; i <= num4; i++) {
+ console.log(i);
+}
+
+let num = parseInt(prompt("Introduceti un numar:"))
+
+console.log("Tabla inmultirii pentru" + num + ":");
+for (let i= 1; i <= 10; i++) {
+    console.log(num + "x" + i + "=" +(num * i));
+}
