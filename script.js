@@ -1,21 +1,21 @@
 // Operatori aritmetici
 
-let num1 = 1;
-let num2 = 2;
+let numberOne = 1;
+let numberTwo = 2;
 
-let suma = num1 + num2;
+let sum = numberOne + numberTwo;
 
-console.log('Rezultat adunare: ' + suma);
+console.log('Rezultat adunare: ' + sum);
 
-let num11 = 11;
-let num22 = 22;
-let num33 = 33;
+let numOne1 = 11;
+let numTwo2 = 22;
+let numThree3 = 33;
 
-let suma2 = num11 + num22 + num33;
+let sum2 = numOne1 + numTwo2 + numThree3;
 
-let medie = suma2 / 3;
+let average = sum2 / 3;
 
-console.log('Media celor 3 numere este:' + medie);
+console.log('Media celor 3 numere este:' + average);
 
 // Operatori de atribuire 
 
@@ -38,9 +38,9 @@ if(numA > numB) {
     console.log('B este mai mare sau egal cu A');
 }
 
-let varsta= 18;
+let age= 18;
 
-if(varsta >= 18) {
+if(age >= 18) {
     console.log('Poti da de permis');
 } else {
     console.log('Nu poti da de permis')
@@ -48,18 +48,18 @@ if(varsta >= 18) {
 
 //Operatori logici
 
-let conditie1 = true;
-let conditie2 = true;
+let condition1 = true;
+let condition2 = true;
 
-if(conditie1 && conditie2) {
+if(condition1 && condition2) {
     console.log('Ambele conditii sunt adevarate');
 } else {
     console.log('O conditie nu este adevarata');
 }
 
-let conditie3 = false;
+let condition3 = false;
 
-if(!conditie3) {
+if(!condition3) {
     console.log('Conditia nu e adevarata');
 } else {
     console.log('Conditia e adevarata');
@@ -67,11 +67,11 @@ if(!conditie3) {
 
 //Bucla do-while
 
-let numar = 1;
+let number = 1;
 do {
-    console.log(numar);
-    numar++;
-} while (numar <= 10);
+    console.log(number);
+    number++;
+} while (number <= 10);
 
 //Bucla for 
 
